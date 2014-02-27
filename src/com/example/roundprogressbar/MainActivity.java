@@ -28,6 +28,7 @@ public class MainActivity extends Activity {
 			
 			@Override
 			public void onClick(View v) {
+				progress = 0 ;
 				new Thread(new Runnable() {
 					
 					@Override
